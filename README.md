@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/portfolio-banner.svg" alt="Sachin Kumar — Full-stack developer building thoughtful products and reliable systems" width="100%" />
+<img src="assets/portfolio-banner.svg" alt="Illustrated developer at a laptop with animated code panels, beside Sachin Kumar’s portfolio headline" width="100%" />
 
 ### Sachin Kumar · Full-stack Developer · Competitive Programmer
 

@@ -21,29 +21,36 @@ I enjoy taking ideas from a clear interface to a dependable backend. My work spa
 
 ## Selected work
 
-### [Citeline](https://github.com/Sachin-8125/Citeline) · Research, grounded in your library
-
-An academic research assistant that lets people upload PDF, DOCX, and TXT documents, then ask questions across their library. Its retrieval-augmented generation flow uses Gemini and ties responses to source pages and passages, with a sidecar PDF viewer for checking the evidence. The client uses React 19, Vite, and Tailwind; the Express and MongoDB server handles document workflows and JWT-based authentication.
-
-`React 19` · `Vite` · `Tailwind CSS` · `Express` · `MongoDB` · `Gemini` · `JWT`
-
-### [Flixpass](https://github.com/Sachin-8125/Flixpass) · Movie discovery to seat selection
-
-A movie booking application that brings movie and showtime browsing together with an interactive seat map and booking flow. Its React client pairs with a Rust API built on Axum and Tokio; Diesel and PostgreSQL support the data layer, and Argon2 is used for password hashing.
-
-`React 19` · `Vite` · `Tailwind CSS` · `Rust` · `Axum` · `Tokio` · `Diesel` · `PostgreSQL` · `Argon2`
-
-### [Airlink](https://github.com/Sachin-8125/Airlink) · Authenticated, real-time messaging
-
-A chat application with authenticated conversations, live messaging, and media support. The React frontend uses Vite, HeroUI, Clerk, and Zustand; its Node and Express backend uses Socket.IO for real-time communication.
-
-`React` · `Vite` · `HeroUI` · `Clerk` · `Zustand` · `Node.js` · `Express` · `Socket.IO`
-
-### [GPT CLI Agent](https://github.com/Sachin-8125/GPT-CLI-AGENT) · Natural language to a reviewed command
-
-A Python and LangGraph command-line agent that turns a plain-language request into a Windows-compatible shell command. Its workflow generates and screens the command, pauses for human confirmation, then executes or blocks it; Docker support is included for a reproducible setup.
-
-`Python` · `OpenAI` · `LangGraph` · `Docker`
+<table>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/Sachin-8125/Citeline">Citeline</a> · Research, grounded in your library</h3>
+      <p>An academic research assistant for uploaded PDF, DOCX, and TXT libraries. Its Gemini retrieval-augmented generation flow cites source pages and passages, with a sidecar PDF viewer for checking the evidence. The client uses React 19, Vite, and Tailwind; the Express and MongoDB server handles document workflows and JWT-based authentication.</p>
+      <p><code>React 19</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Express</code> <code>MongoDB</code> <code>Gemini</code> <code>JWT</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/Sachin-8125/Flixpass">Flixpass</a> · Movie discovery to seat selection</h3>
+      <p>A movie booking application for browsing movies and showtimes, selecting seats on an interactive map, and completing a booking. Its React client pairs with a Rust API built on Axum and Tokio; Diesel and PostgreSQL support the data layer, and Argon2 is used for password hashing.</p>
+      <p><code>React 19</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Rust</code> <code>Axum</code> <code>Tokio</code> <code>Diesel</code> <code>PostgreSQL</code> <code>Argon2</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/Sachin-8125/Airlink">Airlink</a> · Authenticated, real-time messaging</h3>
+      <p>A chat application with authenticated conversations, live messages, and media support. The React frontend uses Vite, HeroUI, Clerk, and Zustand; its Node and Express backend uses Socket.IO for real-time communication.</p>
+      <p><code>React</code> <code>Vite</code> <code>HeroUI</code> <code>Clerk</code> <code>Zustand</code> <code>Node.js</code> <code>Express</code> <code>Socket.IO</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/Sachin-8125/GPT-CLI-AGENT">GPT CLI Agent</a> · Natural language to a reviewed command</h3>
+      <p>A Python and LangGraph command-line agent that turns a plain-language request into a Windows-compatible shell command. Its workflow generates and screens the command, pauses for human confirmation, then executes or blocks it; Docker support is included for a reproducible setup.</p>
+      <p><code>Python</code> <code>OpenAI</code> <code>LangGraph</code> <code>Docker</code></p>
+    </td>
+  </tr>
+</table>
 
 ## What I’m exploring
 
@@ -51,17 +58,32 @@ I’m learning more about **system design**, **scalable backend architectures**,
 
 ## Toolbox
 
-**Client**  
-`React` · `Next.js` · `TypeScript` · `JavaScript` · `Tailwind CSS` · `Vite` · `HeroUI` · `Zustand`
-
-**Server & APIs**  
-`Node.js` · `Express` · `Rust` · `Axum` · `Tokio` · `Go` · `Python` · `Socket.IO`
-
-**Data & authentication**  
-`PostgreSQL` · `MongoDB` · `Diesel` · `JWT` · `Clerk` · `Argon2`
-
-**AI & delivery**  
-`Gemini` · `OpenAI` · `LangGraph` · `Docker` · `GitHub Actions`
+<table>
+  <tr>
+    <td valign="top">
+      <h3>Client</h3>
+      <p><code>React</code> <code>Next.js</code> <code>TypeScript</code> <code>JavaScript</code> <code>Tailwind CSS</code> <code>Vite</code> <code>HeroUI</code> <code>Zustand</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>Server &amp; APIs</h3>
+      <p><code>Node.js</code> <code>Express</code> <code>Rust</code> <code>Axum</code> <code>Tokio</code> <code>Go</code> <code>Python</code> <code>Socket.IO</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>Data &amp; authentication</h3>
+      <p><code>PostgreSQL</code> <code>MongoDB</code> <code>Diesel</code> <code>JWT</code> <code>Clerk</code> <code>Argon2</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>AI &amp; delivery</h3>
+      <p><code>Gemini</code> <code>OpenAI</code> <code>LangGraph</code> <code>Docker</code> <code>GitHub Actions</code></p>
+    </td>
+  </tr>
+</table>
 
 ---
 

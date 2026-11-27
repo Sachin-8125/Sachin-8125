@@ -1,68 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
   <title id="title">Sachin Kumar — Full-stack developer</title>
-  <desc id="desc">A midnight terminal-inspired banner with mint code accents and a softly blinking cursor.</desc>
+  <desc id="desc">A midnight terminal-inspired banner. Mint accents trace a path through a small orbiting network beside the words Building useful things.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/>
       <stop offset="1" stop-color="#111b32"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#77f2c3" stop-opacity="0"/>
-      <stop offset=".45" stop-color="#77f2c3" stop-opacity=".9"/>
-      <stop offset="1" stop-color="#6d8fff" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#77f2c3" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#7895ff" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="glow">
-      <stop offset="0" stop-color="#77f2c3" stop-opacity=".18"/>
+      <stop offset="0" stop-color="#77f2c3" stop-opacity=".2"/>
       <stop offset="1" stop-color="#77f2c3" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
       <path d="M34 0H0V34" fill="none" stroke="#a8b6d7" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
-    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
   </defs>
   <style>
     .mobile { display: none; }
     @media (max-width: 560px) {
       .desktop { display: none; }
       .mobile { display: inline; }
-      .mobile-panel { display: none; }
     }
     @media (prefers-reduced-motion: reduce) {
-      animate { display: none; }
+      animate, animateTransform { display: none; }
     }
   </style>
-  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
-  <ellipse cx="930" cy="145" rx="250" ry="190" fill="url(#glow)" filter="url(#soft)"/>
-  <path d="M0 371H1200" stroke="#b7c5e8" stroke-opacity=".12"/>
+  <rect width="1200" height="440" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="24" fill="url(#grid)"/>
+  <ellipse cx="970" cy="200" rx="280" ry="220" fill="url(#glow)" filter="url(#soft)"/>
+  <path d="M0 390H1200" stroke="#b7c5e8" stroke-opacity=".12"/>
+
   <g class="desktop">
     <circle cx="48" cy="43" r="5" fill="#ff7b72"/>
     <circle cx="68" cy="43" r="5" fill="#f6c76b"/>
     <circle cx="88" cy="43" r="5" fill="#77f2c3"/>
     <text x="116" y="48" fill="#9caac8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.5">SACHIN-KUMAR / PORTFOLIO</text>
-    <text x="68" y="143" fill="#f5f7fb" font-family="Inter, Segoe UI, sans-serif" font-size="57" font-weight="700" letter-spacing="-2">Building useful things.</text>
-    <text x="70" y="190" fill="#a8b6d7" font-family="Inter, Segoe UI, sans-serif" font-size="22">Full-stack development, from polished interfaces to reliable systems.</text>
-    <text x="70" y="244" fill="#77f2c3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">&gt; make_it_clear()  ·  make_it_work()  ·  make_it_last()</text>
-    <rect x="514" y="230" width="8" height="20" rx="2" fill="#77f2c3">
+    <text x="68" y="153" fill="#f5f7fb" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Building useful things.</text>
+    <text x="70" y="203" fill="#a8b6d7" font-family="Inter, Segoe UI, sans-serif" font-size="22">Full-stack development, from polished interfaces to reliable systems.</text>
+    <text x="70" y="270" fill="#77f2c3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16">&gt; make_it_clear()  ·  make_it_work()  ·  make_it_last()</text>
+    <rect x="535" y="255" width="9" height="22" rx="2" fill="#77f2c3">
       <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.38;.48;.9;1" dur="2.4s" repeatCount="indefinite"/>
     </rect>
-    <g class="mobile-panel">
-      <path d="M760 97h330M760 127h250M760 157h295M760 187h210" stroke="#9eacd0" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
-      <path d="M760 97h120M760 127h80M760 157h180M760 187h105" stroke="url(#line)" stroke-width="2" stroke-linecap="round" stroke-dasharray="120 800">
-        <animate attributeName="stroke-dashoffset" from="920" to="0" dur="8s" repeatCount="indefinite"/>
-      </path>
-      <text x="760" y="228" fill="#7182aa" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">// thoughtful by design</text>
+
+    <g class="network">
+      <circle cx="948" cy="196" r="138" fill="url(#glow)" opacity=".8"/>
+      <circle cx="948" cy="196" r="104" fill="none" stroke="#9eacd0" stroke-opacity=".2" stroke-width="1.5" stroke-dasharray="2 9"/>
+      <ellipse cx="948" cy="196" rx="104" ry="43" fill="none" stroke="#9eacd0" stroke-opacity=".18" stroke-width="1.5" transform="rotate(-34 948 196)"/>
+      <path d="M862 154L948 196L1027 132M948 196L1021 254M948 196L860 252" fill="none" stroke="#9eacd0" stroke-opacity=".28" stroke-width="1.5"/>
+      <circle cx="948" cy="196" r="15" fill="#77f2c3" fill-opacity=".16" stroke="#77f2c3" stroke-opacity=".8"/>
+      <circle cx="948" cy="196" r="5" fill="#77f2c3">
+        <animate attributeName="r" values="5;7;5" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="1;.58;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="862" cy="154" r="6" fill="#7895ff"/>
+      <circle cx="1027" cy="132" r="6" fill="#77f2c3"/>
+      <circle cx="1021" cy="254" r="6" fill="#7895ff"/>
+      <circle cx="860" cy="252" r="6" fill="#f5f7fb" fill-opacity=".85"/>
+      <g>
+        <circle cx="948" cy="92" r="5" fill="#77f2c3"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 948 196" to="360 948 196" dur="18s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <circle cx="948" cy="153" r="4" fill="#7895ff"/>
+        <animateTransform attributeName="transform" type="rotate" from="34 948 196" to="-326 948 196" dur="12s" repeatCount="indefinite"/>
+      </g>
+      <text x="948" y="365" text-anchor="middle" fill="#7182aa" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">interfaces · APIs · systems</text>
     </g>
+
+    <path d="M70 328H765" stroke="#9eacd0" stroke-opacity=".15" stroke-width="2" stroke-linecap="round"/>
+    <path d="M70 328H330" stroke="url(#flow)" stroke-width="2" stroke-dasharray="85 650" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="700" to="0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <text x="70" y="357" fill="#7182aa" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">// curiosity, then a clear path from idea to implementation</text>
   </g>
+
   <g class="mobile">
-    <text x="56" y="127" fill="#f5f7fb" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Building useful</text>
-    <text x="56" y="194" fill="#f5f7fb" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">things.</text>
-    <text x="58" y="254" fill="#a8b6d7" font-family="Inter, Segoe UI, sans-serif" font-size="40">Full-stack · Systems</text>
-    <text x="58" y="307" fill="#77f2c3" font-family="Inter, Segoe UI, sans-serif" font-size="38">Thoughtful by design.</text>
-    <rect x="502" y="291" width="8" height="23" rx="2" fill="#77f2c3">
+    <text x="56" y="143" fill="#f5f7fb" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Building useful</text>
+    <text x="56" y="210" fill="#f5f7fb" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">things.</text>
+    <text x="58" y="270" fill="#a8b6d7" font-family="Inter, Segoe UI, sans-serif" font-size="40">Full-stack · Systems</text>
+    <text x="58" y="326" fill="#77f2c3" font-family="Inter, Segoe UI, sans-serif" font-size="38">Thoughtful by design.</text>
+    <rect x="502" y="310" width="8" height="23" rx="2" fill="#77f2c3">
       <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.38;.48;.9;1" dur="2.4s" repeatCount="indefinite"/>
     </rect>
+    <circle cx="1045" cy="105" r="57" fill="none" stroke="#9eacd0" stroke-opacity=".2" stroke-dasharray="2 8"/>
+    <circle cx="1045" cy="105" r="7" fill="#77f2c3" fill-opacity=".2" stroke="#77f2c3" stroke-opacity=".75">
+      <animate attributeName="r" values="7;10;7" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1045" cy="48" r="4" fill="#7895ff">
+      <animateTransform attributeName="transform" type="rotate" from="0 1045 105" to="360 1045 105" dur="16s" repeatCount="indefinite"/>
+    </circle>
   </g>
-  <rect x="1" y="1" width="1198" height="418" rx="23" fill="none" stroke="#dbe5ff" stroke-opacity=".12"/>
+  <rect x="1" y="1" width="1198" height="438" rx="23" fill="none" stroke="#dbe5ff" stroke-opacity=".12"/>
 </svg>
 
